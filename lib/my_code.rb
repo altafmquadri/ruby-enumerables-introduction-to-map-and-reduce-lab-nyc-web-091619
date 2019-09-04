@@ -46,7 +46,17 @@ def map_to_square(array)
   return sum
   end  
   
-  def reduce_to_all_true
+  def reduce_to_all_true(array)
+    counter = 0
+    while counter < array.length
+      if array[counter] == true
+        counter += 1
+        return true
+      else 
+        return false
+      end
+    end
+  end
   
   
   
