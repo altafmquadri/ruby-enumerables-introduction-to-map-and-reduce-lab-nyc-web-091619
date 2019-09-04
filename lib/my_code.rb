@@ -51,10 +51,10 @@ def map_to_square(array)
     while counter < array.length
       if array[counter] == true
         counter += 1
-        return true
       else 
         return false
       end
+      return true
     end
   end
   
