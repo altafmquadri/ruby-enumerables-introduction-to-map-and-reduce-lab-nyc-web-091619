@@ -63,7 +63,7 @@ def map_to_square(array)
   def reduce_to_any_true(array)
     counter = 0
     while counter < array.length
-      if array[counter] != nil || array[counter] != false
+      if array[counter] != nil && array[counter] != false
         counter +=1
         true
       else
