@@ -67,6 +67,7 @@ def map_to_square(array)
       if array[counter] != nil || array[counter] != false
         truthy = true
       end
+      counter +=1
     end
     return truthy
   end
