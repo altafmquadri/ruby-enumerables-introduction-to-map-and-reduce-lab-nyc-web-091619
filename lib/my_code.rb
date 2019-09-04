@@ -67,6 +67,7 @@ def map_to_square(array)
         return false
       else
         counter += 1
+        true
       end
     end
     return true
