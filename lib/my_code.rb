@@ -55,7 +55,7 @@ def map_to_square(array)
       else 
         return false
       end
-      return true
+    return true
     end
   end
   
